@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { Mail, Menu, X } from "lucide-react";
+import { Facebook, Mail, Menu, X } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 
 const Navbar = () => {
@@ -24,7 +24,7 @@ const Navbar = () => {
 
   const handleScrollOrNavigate = (
     e: React.MouseEvent<HTMLAnchorElement>,
-    hash: string
+    hash: string,
   ) => {
     e.preventDefault();
     setOpen(false);
@@ -50,9 +50,9 @@ const Navbar = () => {
       }`}
     >
       <header className="container mx-auto px-5 xl:px-0 flex items-center justify-between transition-colors duration-300">
-        <Link to="/" className="w-48 h-auto flex items-center justify-center">
+        <Link to="/" className="w-32 h-auto flex items-center justify-center">
           <img
-            src="/meta/logo-icon.png"
+            src="/meta/logo.png"
             className="w-full h-full object-contain transition-all duration-300"
             alt="Logo"
           />
@@ -65,8 +65,8 @@ const Navbar = () => {
               onClick={(e) => handleScrollOrNavigate(e, n.path)}
               className={`text-lg font-normal transition-colors ${
                 scrolled
-                  ? "text-black hover:text-orange-500 hover:underline underline-offset-4"
-                  : "text-black hover:text-orange-400 hover:underline underline-offset-4"
+                  ? "text-black hover:text-[#BC2417] hover:underline underline-offset-4"
+                  : "text-black hover:text-[#BC2417] hover:underline underline-offset-4"
               }`}
             >
               {n.title}
@@ -89,6 +89,14 @@ const Navbar = () => {
             className="flex items-center justify-center w-9 h-9 rounded-full border transition border-black/20 text-black hover:bg-black/10"
           >
             <Mail className="w-4 h-4" />
+          </a>
+          <a
+            href="https://www.facebook.com/61572927488847"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center w-9 h-9 rounded-full border transition border-black/20 text-black hover:bg-black/10"
+          >
+            <Facebook className="w-4 h-4" />
           </a>
           <button
             onClick={() => setOpen((v) => !v)}

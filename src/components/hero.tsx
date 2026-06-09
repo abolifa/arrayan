@@ -42,7 +42,7 @@ const Hero = () => {
             className="text-2xl md:text-4xl leading-relaxed font-black tracking-tight text-green-900 mt-6"
           >
             شركة الريان الراقي
-            <span className="block text-orange-600 text-base md:text-2xl">
+            <span className="block text-[#BC2417] text-base md:text-2xl">
               لاستيراد المواد الغذائية والسلع التموينية
             </span>
           </motion.h1>
@@ -67,7 +67,7 @@ const Hero = () => {
           >
             <a
               href="#products"
-              className="px-10 z-50 py-4 bg-orange-600 hover:bg-orange-700 text-white text-xl font-bold rounded-full transition"
+              className="px-10 z-50 py-4 bg-[#BC2417] hover:bg-[#A31F16] text-white text-xl font-bold rounded-full transition"
             >
               عرض المنتجات
             </a>
