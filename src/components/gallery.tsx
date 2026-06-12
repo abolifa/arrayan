@@ -1,7 +1,9 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 const Gellery = () => {
+  const { t } = useTranslation();
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const images = [
@@ -16,7 +18,7 @@ const Gellery = () => {
   return (
     <section id="gallery" className="relative w-full py-32 bg-white">
       <h2 className="text-center text-4xl md:text-5xl font-extrabold text-green-900">
-        معرض الصور
+        {t("gallery.title")}
       </h2>
 
       <motion.div
@@ -24,7 +26,7 @@ const Gellery = () => {
         whileInView={{ width: "200px" }}
         viewport={{ once: true }}
         transition={{ duration: 1.2 }}
-        className="h-1 bg-orange-500 mx-auto mt-4 mb-20 rounded-full"
+        className="h-1 bg-[#BC2417] mx-auto mt-4 mb-20 rounded-full"
       />
 
       <div className="container mx-auto px-6">

@@ -1,0 +1,118 @@
+{
+  "navbar": {
+    "logo_alt": "Al Rayyan Al Raqi Logo",
+    "open_menu": "Open menu",
+    "close_menu": "Close menu",
+    "links": {
+      "home": "Home",
+      "about": "About Us",
+      "products": "Products",
+      "contact": "Contact"
+    },
+    "social": {
+      "whatsapp": "WhatsApp",
+      "email": "Email",
+      "facebook": "Facebook"
+    }
+  },
+  "hero": {
+    "title": "Al Rayyan Al Raqi Company",
+    "slogan": "For Food Imports and Consumer Goods",
+    "description": "Food supply and distribution with high standards, verified quality, and lasting trust to efficiently serve the Libyan market.",
+    "contact": "Contact Us",
+    "view_products": "View Products"
+  },
+  "about": {
+    "title": "About Us",
+    "quality": "Guaranteed Quality",
+    "selected_products": "Selected Products",
+    "description_1": "Al Rayyan Al Raqi Company for Food Imports and Consumer Goods operates according to high standards in selecting and supplying products to the Libyan market, ensuring excellent quality and strict quality control.",
+    "description_2": "Our vision is to strengthen local food security by providing a diverse range of products from trusted international sources and distributing them efficiently to ensure they reach consumers in the best possible condition.",
+    "contact": "Contact Us"
+  },
+  "products": {
+    "title": "Our Main Products",
+
+    "oil": {
+      "title": "Sunflower Oil",
+      "description": "High Purity – Premium Quality – Excellent Taste",
+      "badge_1": "100% Natural",
+      "badge_2": "100% Pure"
+    },
+
+    "sugar": {
+      "title": "Pure White Sugar",
+      "description": "Bright White – Perfect Dissolution – High Purity",
+      "badge_1": "Extra White",
+      "badge_2": "Guaranteed Purity"
+    },
+
+    "tuna": {
+      "title": "Al Rayyan Tuna",
+      "description": "Premium Cuts – High Protein – Excellent Flavor",
+      "badge_1": "Fresh",
+      "badge_2": "Rich in Protein"
+    },
+    "flour": {
+      "title": "Al Rayyan Flour",
+      "description": "High-Quality Flour – Perfect for Baking – Very Fine",
+      "badge_1": "100% Wheat",
+      "badge_2": "Guaranteed Purity"
+    }
+  },
+  "why_us": {
+    "title": "Why Choose Us?",
+    "trust": {
+      "title": "Guaranteed Reliability",
+      "description": "We are committed to product quality and safety from source to delivery."
+    },
+    "variety": {
+      "title": "Wide Product Variety",
+      "description": "A broad selection that meets market needs and ensures continuous alternatives."
+    },
+    "quality": {
+      "title": "Imported Quality",
+      "description": "Careful supplier selection ensures consistent quality, taste, and value."
+    },
+    "storage": {
+      "title": "Careful Storage",
+      "description": "A well-planned transportation and storage chain to preserve nutritional value."
+    }
+  },
+  "gallery": {
+    "title": "Photo Gallery"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "email": "info@arryanalraqi.com.ly",
+    "phone": "+218 91 218 6060",
+    "address": "Kerzaz - Misrata - Libya",
+    "map_title": "Al Rayyan Al Raqi Company Location",
+    "form": {
+      "name": "Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "message": "Your Message",
+      "submit": "Send"
+    },
+    "status": {
+      "sending": "Sending...",
+      "success": "Message sent successfully",
+      "error": "An error occurred while sending",
+      "failed": "Unable to send"
+    }
+  },
+  "footer": {
+    "follow_us": "Follow Us",
+    "email": "info@arryanalraqi.com.ly",
+    "phone": "+218 91 218 6060",
+    "address": "Kerzaz - Misrata - Libya",
+    "copyright": "© 2026 Al Rayyan Al Raqi. All Rights Reserved.",
+    "links": {
+      "home": "Home",
+      "about": "About Us",
+      "products": "Our Products",
+      "contact": "Contact Us"
+    }
+  }
+}

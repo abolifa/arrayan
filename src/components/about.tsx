@@ -1,7 +1,9 @@
 import { motion } from "framer-motion";
 import { Leaf, Wheat } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const About = () => {
+  const { t } = useTranslation();
   return (
     <section
       id="about"
@@ -33,7 +35,7 @@ const About = () => {
           >
             <Leaf size={22} className="text-green-700" />
             <span className="font-bold text-green-800 text-sm">
-              جودة مضمونة
+              {t("about.quality")}
             </span>
           </motion.div>
 
@@ -44,9 +46,9 @@ const About = () => {
             transition={{ duration: 1.3 }}
             className="absolute top-5 left-5 bg-white/85 backdrop-blur-md px-5 py-3 rounded-xl shadow-lg flex items-center gap-2"
           >
-            <Wheat size={22} className="text-orange-600" />
-            <span className="font-bold text-orange-700 text-sm">
-              منتجات مختارة
+            <Wheat size={22} className="text-[#BC2417]" />
+            <span className="font-bold text-[#BC2417] text-sm">
+              {t("about.selected_products")}
             </span>
           </motion.div>
         </motion.div>
@@ -56,7 +58,7 @@ const About = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 1.1 }}
-          className="text-center md:text-right"
+          className="text-center md:text-start"
         >
           <motion.h2
             initial={{ opacity: 0, y: 25 }}
@@ -65,7 +67,7 @@ const About = () => {
             transition={{ duration: 1.2 }}
             className="text-4xl md:text-5xl font-extrabold text-green-900 leading-tight"
           >
-            من نحن
+            {t("about.title")}
           </motion.h2>
 
           <motion.div
@@ -73,19 +75,15 @@ const About = () => {
             whileInView={{ width: "120px" }}
             viewport={{ once: true }}
             transition={{ duration: 1.4 }}
-            className="h-1 bg-orange-600 mt-3 mb-8 mx-auto md:mx-0 rounded-full"
+            className="h-1 bg-[#BC2417] mt-3 mb-8 mx-auto md:mx-0 rounded-full"
           />
 
           <p className="text-gray-800 text-lg md:text-xl leading-relaxed">
-            شركة الريان الراقي لاستيراد المواد الغذائية والسلع التموينية، نعمل
-            وفق معايير عالية في اختيار المنتجات وتوفيرها للسوق الليبي بجودة
-            ممتازة ومعايير رقابية حقيقية.
+            {t("about.description_1")}
           </p>
 
           <p className="mt-5 text-gray-800 text-lg md:text-xl leading-relaxed">
-            رؤيتنا هي تعزيز الأمن الغذائي المحلي عبر توفير منتجات متنوعة من
-            مصادر موثوقة عالميًا، وتوزيعها بكفاءة لضمان وصولها للمستهلك بالشكل
-            الأمثل.
+            {t("about.description_2")}
           </p>
 
           <motion.div
@@ -97,9 +95,9 @@ const About = () => {
           >
             <a
               href="#contact"
-              className="px-12 py-4 bg-orange-600 hover:bg-orange-700 text-white font-bold text-xl rounded-full transition"
+              className="px-12 py-4 bg-[#BC2417] hover:bg-[#8C1E12] text-white font-bold text-xl rounded-full transition"
             >
-              تواصل معنا
+              {t("about.contact")}
             </a>
           </motion.div>
         </motion.div>
